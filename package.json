@@ -4,7 +4,8 @@
   "description": "A react app to display random users",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-server": "nodemon server/index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/ktapia576/random-user-app#readme",
   "dependencies": {
+    "axios": "^0.21.1",
     "express": "^4.17.1"
   }
 }
