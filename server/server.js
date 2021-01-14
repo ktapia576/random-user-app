@@ -1,6 +1,9 @@
 const express = require('express');
-const app = express();
 const axios = require('axios');
+const cors = require('cors');
+
+const app = express();
+app.use(cors());
 
 app.get('/', (req,res) => {
     res.send("<h1>Home page</h1>");
